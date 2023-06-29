@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Axelle Hernandez">
+    <meta name="description" content="Portafolio de Axelle Hernandez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, 3D, Amimation, Animaciòn, Modelado, Arte Digital, Digital Art">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Axelle Ho | Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/logo_short.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bacasime+Antique&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/72d4dc6c37.js" crossorigin="anonymous"></script> <!--Font Awesome Icons-->
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/logo_white.png" width="70" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi" style="color: white;">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="ElianeAxelle_CV_Mayo23.pdf" target="_blank">CV</a>
+            </li>  
+            <a href="index.html" rel="noopener noreferrer">
+                <button type="button" class="button-3">
+                  English    
+                </button>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Floating Button-->
+    <a href="#" class="float">
+      <i class="bi bi-house" style="color: #BFACAA;"></i>
+    </a>
+
+
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/pp_02.png" alt="Foto de Axelle Hernández">
+        <h1>Hola, soy <br> Axelle Hernandez</h1>
+        <!--<h2>Soy Artista 3D y de VFX.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/greenie.png" width="300" alt="Dibujo de Greenie">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Axelle</h2>
+        <p class="seccion-texto"> Recién graduada de la carrera de Animación y Arte Digital en el Tec de Monterrey. Me he especializado en 3D y desarrollo de videojuegos. En 2022 tuve la oportunidad de participar en un intensivo de VFX y composición Digital en La Salle, Barcelona. <br>Actualmente estoy trabajando en mis habilidades y espero seguir expandiendo mis áreas de conocimiento.</p>
+        <a href="ElianeAxelle_CV_Mayo23.pdf" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="button-2">
+            Curriculum Vitae    
+            <i class="bi bi-box-arrow-in-up-right"></i>
+          </button>
+        </a>
+      </section>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- 3D Modelling -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-person-rolodex"></i>
+            <p class="experiencia-titulo">Modelado 3D</p>
+            <p>Modelado orgánico y hard surface. <br>Experiencia con personajes, ambientes y props <br>Retopología, edición de UVs y texturas PBR</p>
+            <div class="badges-contenedor">
+              <span class="button">Maya</span>
+              <span class="button">Blendr</span>
+              <span class="button">Zbrush</span>
+              <span class="button">Substance</span>
+            </div>
+          </div>
+          <!-- Animation -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-person-video2"></i>
+            <p class="experiencia-titulo">Animation</p>
+            <p>Animación 3D y limpieza de Motion Capture</p>
+            <div class="badges-contenedor">
+              <span class="button">Maya</span>
+              <span class="button">Motion Builder</span>
+              <!-- <span class="badge text-bg-primary">Blogs</span> -->
+            </div>
+          </div>
+          <!-- VFX -->
+          <!-- <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-bounding-box"></i>
+            <p class="experiencia-titulo">VFX</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Houdini</span>
+              <span class="badge text-bg-primary">Nuke</span>
+              <span class="badge text-bg-primary">Maya</span>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="row">
+          <!-- VFX -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-person-bounding-box"></i>
+            <p class="experiencia-titulo">VFX</p>
+            <p>Desarrollo de Efectos Especiales en Houdini y Maya<br>Iluminación y Composición en Nuke y Maya</p>
+            <div class="badges-contenedor">
+              <span class="button">Houdini</span>
+              <span class="button">Nuke</span>
+              <span class="button">Maya</span>
+            </div>
+          </div>
+
+          <!-- Front End-->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-body-text"></i>
+            <p class="experiencia-titulo">Front End</p>
+            <p>Desarrollo Web y diseño de Front End</p>
+            <div class="badges-contenedor">
+              <span class="button">HTML</span>
+              <span class="button">Maya</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+      <h2 class="seccion-titulo texto-">Proyectos Recientes</h2>
+      <h3 class="seccion-descripcion">Esto es algo de mi trabajo!</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+
+
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/project1.jpg" alt="Proyecto 1" style="width: 90%; height: auto;">
+              <div class="overlay">
+                <p>Toon</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.artstation.com/u46455a73" target="_blank" rel="noopener noreferrer" style="align-items: center;">
+                    <i class="fa-brands fa-artstation fa-fade" style="color: #bfacaa;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/project2.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Stylized</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.artstation.com/u46455a73" target="_blank" rel="noopener noreferrer" style="align-items: center;">
+                    <i class="fa-brands fa-artstation fa-fade" style="color: #bfacaa;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/project4.png" alt="Proyecto 1" style="width: 87%; height: auto;">
+              <div class="overlay">
+                <p>Rigged</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.artstation.com/u46455a73" target="_blank" rel="noopener noreferrer" style="align-items: center;">
+                    <i class="fa-brands fa-artstation fa-fade" style="color: #bfacaa;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/project4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- Proyecto 5 -->
+          <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>-->
+          <!-- Proyecto 6 -->
+        <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <br>
+      <br>
+      <a href="https://www.artstation.com/u46455a73" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="button-2">
+          Ver más  
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Algunas reseñas que he recibido de mi trabajo</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/review_!.jpeg" alt="Foto de Gino">
+              <p class="testimonio-texto">Axelle ha demostrado ser muy trabajadora y atenta a la hora de programar en front-end. Su dedicación, esmero, paciencia y constancia la hace ser una excelente compañera.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Yunuen Teco Corzo</p>
+                <p class="cargo">Egresada de Preparatoria</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/review_nan.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Axelle ha desarrollado de manera eficiente sus habilidades en programación front-end, demostró ser una gran estudiante y bastante colaborativa con sus compañeras</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nancy Salazar</p>
+                <p class="cargo">Instructora Front-End en Tecnolochicas PRO</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/review_2.png" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Axelle es atenta al detalle, sabe trabajar en equipo, es responsable y amable, sin duda alguna es una excelente programadora.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Karla Hernández</p>
+                <p class="cargo">Estudiante de Derecho y Programación</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact0" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Porfavor ponte en contacto si te interesa algo de mi trabajo, posibles proyectos o colaboraciones
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:axelleho@outlook.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <!-- <img class="footer-logo" src="imagenes/moon-stars.svg" alt="Logo del portafolio"> -->
+      <a>
+        <i class="bi bi-moon-stars bi-xl" style="color: #BFACAA; font-size: 5rem;"></i>
+      </a>
+      <p class="footer-texto text-center">Si puedo soñarlo<br>Puedo lograrlo</p>
+
+
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a> -->
+         <a href="https://www.artstation.com/u46455a73" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+          <i class="fa-brands fa-artstation"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/axelle-hernandez/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/axelleho/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:axelleho@outlook.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Eliane Axelle Hernández (2023) &#169;</div>
+
+      <div class="footer-band">
+        
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>

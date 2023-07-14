@@ -115,6 +115,7 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  color: #0D0D0D;
 }
 
 .experiencia .columna:hover {
@@ -489,4 +490,98 @@ footer {
 
 .my-float{
   margin: 10px;
+}
+
+
+/* 3D MODELLING */
+.angry-grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  gap: 0px;
+  height: 100%;
+  padding: 0% 10%;
+
+}
+
+#item-0 {
+
+  background-color: #DE65BD;
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 4;
+  grid-column-end: 4;
+
+}
+#item-1 {
+
+  background-color: #6F57BB;
+  grid-row-start: 1;
+  grid-column-start: 4;
+
+  grid-row-end: 3;
+  grid-column-end: 6;
+
+}
+#item-2 {
+
+  background-color: #9D9F67;
+  grid-row-start: 3;
+  grid-column-start: 4;
+
+  grid-row-end: 4;
+  grid-column-end: 5;
+
+}
+#item-3 {
+
+  background-color: #DC59BC;
+  grid-row-start: 3;
+  grid-column-start: 5;
+
+  grid-row-end: 4;
+  grid-column-end: 6;
+
+}
+#item-4 {
+
+  background-color: #5D5E7D;
+  grid-row-start: 4;
+  grid-column-start: 3;
+
+  grid-row-end: 7;
+  grid-column-end: 6;
+
+}
+#item-5 {
+
+  background-color: #5BAF89;
+  grid-row-start: 4;
+  grid-column-start: 1;
+
+  grid-row-end: 5;
+  grid-column-end: 2;
+
+}
+#item-6 {
+
+  background-color: #DD89EF;
+  grid-row-start: 4;
+  grid-column-start: 2;
+
+  grid-row-end: 5;
+  grid-column-end: 3;
+
+}
+#item-7 {
+
+  background-color: #5F5DDE;
+  grid-row-start: 5;
+  grid-column-start: 1;
+
+  grid-row-end: 7;
+  grid-column-end: 3;
 }

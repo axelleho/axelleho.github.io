@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="author" content="Axelle Hernandez">
     <meta name="description" content="Portafolio de Axelle Hernandez">
-    <meta name="keywords" content="HTML, CSS, JavaScript, React, 3D, Amimation, Animaciòn, Modelado, Arte Digital, Digital Art">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, 3D, Amimation, Animación, Modelado, Arte Digital, Digital Art">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Titulo -->
-    <title>Axelle Ho | Portfolio</title>
+    <title>Axelle Ho | Portafolio</title>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="imagenes/logo_short.png">
     <!-- Bootstrap -->
@@ -52,10 +52,10 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" style="color: white;" href="ElianeAxelle_CV_Mayo23.pdf" target="_blank">CV</a>
-            </li>  
+            </li>
             <a href="index.html" rel="noopener noreferrer">
                 <button type="button" class="button-3">
-                  English    
+                  English
                 </button>
             </a>
           </ul>
@@ -65,7 +65,7 @@
 
     <!-- Floating Button-->
     <a href="#" class="float">
-      <i class="bi bi-house" style="color: #BFACAA;"></i>
+      <i class="bi bi-arrow-up-short" style="color: whitesmoke;"></i>
     </a>
 
 
@@ -92,7 +92,7 @@
         <p class="seccion-texto"> Recién graduada de la carrera de Animación y Arte Digital en el Tec de Monterrey. Me he especializado en 3D y desarrollo de videojuegos. En 2022 tuve la oportunidad de participar en un intensivo de VFX y composición Digital en La Salle, Barcelona. <br>Actualmente estoy trabajando en mis habilidades y espero seguir expandiendo mis áreas de conocimiento.</p>
         <a href="ElianeAxelle_CV_Mayo23.pdf" target="_blank" rel="noopener noreferrer">
           <button type="button" class="button-2">
-            Curriculum Vitae    
+            Curriculum Vitae
             <i class="bi bi-box-arrow-in-up-right"></i>
           </button>
         </a>
@@ -103,46 +103,58 @@
     <!-- Experiencia -->
     <section class="experiencia seccion-clara">
       <div class="container text-center">
+        <h2 class="seccion-titulo">Experiencia</h2>
+        <h3 class="seccion-descripcion" style="margin-top: 1rem;">Haz click para ver más</h3>
         <div class="row">
           <!-- 3D Modelling -->
-          <div class="columna col-12 col-md-6">
+          <a class="columna col-12 col-md-4" href="3d.html" style="text-decoration: none;">
             <i class="bi bi-person-rolodex"></i>
             <p class="experiencia-titulo">Modelado 3D</p>
-            <p>Modelado orgánico y hard surface. <br>Experiencia con personajes, ambientes y props <br>Retopología, edición de UVs y texturas PBR</p>
+            <p>Modelado orgánico y hard surface<br>Retopología, edición de UVs y texturas PBR</p>
             <div class="badges-contenedor">
               <span class="button">Maya</span>
               <span class="button">Blendr</span>
               <span class="button">Zbrush</span>
-              <span class="button">Substance</span>
             </div>
-          </div>
+          </a>
           <!-- Animation -->
-          <div class="columna col-12 col-md-6">
+          <a class="columna col-12 col-md-4" href="animation.html" style="text-decoration: none;">
             <i class="bi bi-person-video2"></i>
-            <p class="experiencia-titulo">Animation</p>
+            <p class="experiencia-titulo">Animación</p>
             <p>Animación 3D y limpieza de Motion Capture</p>
             <div class="badges-contenedor">
               <span class="button">Maya</span>
               <span class="button">Motion Builder</span>
               <!-- <span class="badge text-bg-primary">Blogs</span> -->
             </div>
-          </div>
-          <!-- VFX -->
-          <!-- <div class="columna col-12 col-md-4">
-            <i class="bi bi-person-bounding-box"></i>
-            <p class="experiencia-titulo">VFX</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+          </a>
+          <!-- Lighting -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-video"></i>
+            <p class="experiencia-titulo">Iluminación</p>
+            <p>Iluminación de escenas y escenarios, post-producción</p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Houdini</span>
-              <span class="badge text-bg-primary">Nuke</span>
-              <span class="badge text-bg-primary">Maya</span>
+              <span class="button">Maya</span>
+              <span class="button">Arnold</span>
+              <span class="button">Nuke</span>
             </div>
-          </div> -->
+          </div>
         </div>
 
         <div class="row">
+          <!-- LookDev-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-lines-fill"></i>
+            <p class="experiencia-titulo">Look Development</p>
+            <p>Creación de texturas y materiales</p>
+            <div class="badges-contenedor">
+              <span class="button">Substance Designer</span>
+              <span class="button">Substance Painter</span>
+            </div>
+          </div>
+
           <!-- VFX -->
-          <div class="columna col-12 col-md-6">
+          <div class="columna col-12 col-md-4">
             <i class="bi bi-person-bounding-box"></i>
             <p class="experiencia-titulo">VFX</p>
             <p>Desarrollo de Efectos Especiales en Houdini y Maya<br>Iluminación y Composición en Nuke y Maya</p>
@@ -154,7 +166,7 @@
           </div>
 
           <!-- Front End-->
-          <div class="columna col-12 col-md-6">
+          <div class="columna col-12 col-md-4">
             <i class="bi bi-body-text"></i>
             <p class="experiencia-titulo">Front End</p>
             <p>Desarrollo Web y diseño de Front End</p>
@@ -163,7 +175,6 @@
               <span class="button">Maya</span>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
@@ -276,7 +287,7 @@
       <br>
       <a href="https://www.artstation.com/u46455a73" target="_blank" rel="noopener noreferrer">
         <button type="button" class="button-2">
-          Ver más  
+          Ver más
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
       </a>
@@ -284,9 +295,9 @@
 
     <!-- Testimonios -->
     <section id="testimonios" class="testimonios seccion-clara">
-      <h2 class="seccion-titulo">Testimonios</h2>
+      <h2 class="seccion-titulo" style="color: #6FB1BF">Testimonios</h2>
       <h3 class="seccion-descripcion">Algunas reseñas que he recibido de mi trabajo</h3>
-      
+
       <!-- Carrusel -->
       <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -358,7 +369,7 @@
     </section>
     
     <!-- Pie de pagina (footer) -->
-    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+    <footer class="seccion-dark d-flex flex-column align-items-center justify-content-center"> 
       <!-- <img class="footer-logo" src="imagenes/moon-stars.svg" alt="Logo del portafolio"> -->
       <a>
         <i class="bi bi-moon-stars bi-xl" style="color: #BFACAA; font-size: 5rem;"></i>

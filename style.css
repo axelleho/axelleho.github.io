@@ -275,6 +275,34 @@ h2 {
   /*box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);*/
 }
 
+.button-4 {
+  border: none;
+  color: #0D0D0D;
+  padding: .6rem .6rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 4rem 2rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /*background-color: #0D0D0D;*/
+  background-color: transparent;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  /*box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);*/
+}
+
+.button-4:hover{
+  color: whitesmoke;
+  background-color: #3E3886;
+}
+
 /* Testimonios */
 
 .testimonios {
@@ -624,7 +652,7 @@ footer {
   height: auto;
 }
 
-/* Illustration */
+/* --------------------  Illustration -------------------- */
 .row-ill {
   display: flex;
   flex-wrap: wrap;
@@ -647,6 +675,78 @@ footer {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column-ill {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* -------------------- 3D -------------------- */
+.row-3d {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-3d {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-3d img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-3d {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* -------------------- Lookdev -------------------- */
+.row-ld {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-ld {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-ld img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-ld {
     flex: 50%;
     max-width: 50%;
   }

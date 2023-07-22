@@ -1,4 +1,4 @@
-/* Barra de navegacion */
+/* -------------------- Barra de navegacion ----------------------------- */
 
 .navbar {
   padding: 2rem;
@@ -12,7 +12,26 @@
   justify-content: space-between;
 }
 
-/* Estilos generales */
+.navbar i {
+  color: whitesmoke;
+}
+
+.nav-item {
+  font-size: 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: whitesmoke;
+}
+
+.nav-item:hover {
+  color: whitesmoke;
+  background-color: #5F5DDE;
+}
+
+/* ------------------- Estilos generales ------------------------------- */
 
 section {
   display: flex;
@@ -33,7 +52,7 @@ h2 {
 
 .seccion-oscura {
   color: #84A9D9;
-  background: linear-gradient(0deg, rgba(3,10,28,1) 97%, rgba(76,122,212,1) 100%);
+  background: linear-gradient(0deg, rgba(3,10,28,1) 44%, rgba(18,31,86,1) 78%, rgba(51,82,157,1) 94%, rgba(76,122,212,1) 100%);
 }
 
 .seccion-clara {
@@ -264,15 +283,20 @@ h2 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.2rem;
-  margin: 1rem 1rem;
-  background-color: #3E3886;
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem;
+  background-color: transparent;
   border-radius: 10%;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
   /*box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);*/
+}
+
+.button-3:hover{
+  color: #0D0D0D;
+  background-color: #65BF9E;
 }
 
 .button-4 {
@@ -303,7 +327,7 @@ h2 {
   background-color: #3E3886;
 }
 
-/* Testimonios */
+/* ----------------------- Testimonios --------------------------- */
 
 .testimonios {
   padding: 40px 40px 80px 40px;
